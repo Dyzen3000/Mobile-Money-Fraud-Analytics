@@ -4,7 +4,7 @@ An end-to-end fraud analytics project analyzing 6M+ simulated mobile-money trans
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Fraud detection in digital financial services requires identifying unusual transaction patterns while minimizing false alerts.
 
@@ -16,7 +16,7 @@ This project analyzes the **PaySim mobile money transaction dataset**, a synthet
 
 ---
 
-## 🎯 Business Questions
+## Business Questions
 
 The analysis aims to answer:
 
@@ -31,7 +31,7 @@ The analysis aims to answer:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The project uses the **PaySim** synthetic mobile-money transaction dataset.
 
@@ -59,7 +59,7 @@ The dataset contains approximately **6.3 million transactions** across a simulat
 
 ---
 
-## ⚠️ Data Leakage Consideration
+## Data Leakage Consideration
 
 The dataset documentation states that fraudulent transactions are cancelled. Therefore, the following balance-related columns are **excluded from fraud-detection features**:
 
@@ -74,7 +74,7 @@ The columns are retained in the raw dataset for reference and data-quality analy
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 ### SQL
 - PostgreSQL
@@ -103,7 +103,7 @@ The columns are retained in the raw dataset for reference and data-quality analy
 
 ---
 
-## 🔍 Analysis
+## Analysis
 
 ### 1. Transaction Analysis
 
@@ -151,7 +151,7 @@ The analysis includes:
 
 ---
 
-## 📈 Power BI Dashboard
+## Power BI Dashboard
 
 The Power BI dashboard is organized into three analytical areas:
 
@@ -188,7 +188,7 @@ Evaluates:
 
 ---
 
-## 🧠 Advanced Analysis
+## Advanced Analysis
 
 The project may also include a fraud-risk analysis using transaction-level behavioral features such as:
 
@@ -204,7 +204,7 @@ Any predictive modeling will account for the severe class imbalance and avoid te
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Mobile-Money-Fraud-Analytics/
