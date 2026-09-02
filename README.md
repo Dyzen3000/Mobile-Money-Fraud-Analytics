@@ -1,4 +1,4 @@
-# Mobile Money Fraud Analytics
+# Mobile Money Fraud Analytics(In Progress)
 
 An end-to-end fraud analytics project analyzing 6M+ simulated mobile-money transactions using **PostgreSQL, Python, and Power BI** to identify fraudulent transaction patterns, evaluate existing fraud-monitoring controls, and quantify transaction-level risk.
 
